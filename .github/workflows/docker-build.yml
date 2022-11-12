@@ -42,8 +42,8 @@ jobs:
           context: ./
           # Note: tags has to be all lower-case
           tags: |
-            psaroj/cloudclass:latest 
-            ghcr.io/psaroj/cloudclass:latest
+            psaroj/heroku-app:latest 
+            ghcr.io/psaroj/heroku-app:latest
           # build on feature branches, push only on main branch
           push: ${{ github.ref == 'refs/heads/main' }}
 
